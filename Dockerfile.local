@@ -1,0 +1,8 @@
+# This kubexit image is not publicly available
+FROM ghcr.io/inigo4562/kubexit:local AS kubexit
+
+FROM gcr.io/cloudsql-docker/gce-proxy:1.26.0 AS runner
+
+COPY --from=kubexit /bin/kubexit /bin/
+
+ENTRYPOINT ["kubexit", "/cloud_sql_proxy"]

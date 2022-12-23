@@ -10,9 +10,9 @@ docker pull ghcr.io/inigo4562/cloudsql-proxy-kubexit:latest
 
 ### Image tags
 
-Current latest tag points to version `0.2.3-local` local. This image is built
+Current latest tag points to version `0.4.0-local` local. This image is built
 using a locally built `kubexit` image with upgraded dependencies. For
-details about the upraded packages check [this pull request](https://github.com/karlkfi/kubexit/pull/21).
+details about the upraded packages check [this repository](https://github.com/Inigo4562/kubexit).
 
 ## Documentation
 

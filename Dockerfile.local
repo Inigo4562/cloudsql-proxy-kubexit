@@ -1,5 +1,5 @@
 # This kubexit image is not publicly available
-FROM ghcr.io/inigo4562/kubexit:0.3.4 AS kubexit
+FROM ghcr.io/inigo4562/kubexit:0.4.0 AS kubexit
 
 FROM gcr.io/cloudsql-docker/gce-proxy:1.33.1 AS runner
 
